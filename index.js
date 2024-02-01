@@ -1,5 +1,5 @@
 const createNumbers = () => {
-  const container = document.getElementById("tombola-contanier");
+  const container = document.getElementById("tombola-container");
 
   for (let i = 0; i < 90; i++) {
     const numCellDiv = document.createElement("div");
@@ -15,17 +15,11 @@ const createNumbers = () => {
 
 const randomBtn = document.querySelector("button");
 
-const arrayNums = () => {
-  for (let i = 0; i < 90; i++) {
-    extractedNumbers.push(i + 1);
-  }
-  return extractedNumbers;
-};
-
-const extractedNumbers = [];
 randomBtn.onclick = () => {
   const randomNum = Math.floor(Math.random() * 90 + 1);
-  extractedNumbers.push(randomNum);
+  const arrayCells = document.querySelectorAll("#tombola-container");
+  const extractedNum = arrayCells[randomNum];
+  extractedNum.style = "background #9dfad1";
 };
 
 window.onload = function () {
