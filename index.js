@@ -16,15 +16,15 @@ const createNumbers = () => {
 const randomBtn = document.querySelector("button");
 
 const arrayNums = () => {
-  const extractedNumbers = [];
   for (let i = 0; i < 90; i++) {
     extractedNumbers.push(i + 1);
   }
   return extractedNumbers;
 };
 
-const randomNum = Math.floor(Math.random() * 90 + 1);
+const extractedNumbers = [];
 randomBtn.onclick = () => {
+  const randomNum = Math.floor(Math.random() * 90 + 1);
   extractedNumbers.push(randomNum);
 };
 
