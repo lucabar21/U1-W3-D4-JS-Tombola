@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  width: 100%;
+  background: #2e4657;
+  margin: 0;
+  text-align: center;
+}
+
+#tombola-contanier {
+  width: 82%;
+  display: block;
+  margin: auto;
+  background-color: #537791;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.numeri {
+  width: 8%;
+  height: auto;
+  display: inline-block;
+  margin: 0.8rem;
+  font-size: 200%;
+  background-color: #f7f6e7;
+  border-radius: 5px;
+  color: #555552;
+}
+
+#n-btn {
+  width: 200px;
+  height: 70px;
+  font-weight: 800;
+  font-size: 250%;
+  background-color: #f7f6e7;
+  display: block;
+  margin-inline: auto;
+  border: none;
+  border-radius: 8px;
+  margin-block: 2rem;
+  color: #555552;
+}
+
+#cartella {
+  width: 20%;
+  display: block;
+  margin-inline: auto;
+  background-color: #537791;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.n-cart {
+  width: 12%;
+  height: auto;
+  display: inline-block;
+  margin: 0.8rem;
+  font-size: 200%;
+  background-color: #f7f6e7;
+  border-radius: 5px;
+  color: #555552;
+}
+
+h1 {
+  color: #f7f6e7;
+  font-size: 2.5rem;
+}
+
+#cartella {
+  display: none;
+}
+
+.extracted {
+  background-color: #9dfad1;
+}
